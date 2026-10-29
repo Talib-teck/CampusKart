@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CampusKart - Local Shopping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h1>Campus<span>Kart</span></h1>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+
+            <a href="#products" class="cart">🛒 Cart</a>
+        </nav>
+    </header>
+
+    
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <h2>Shop Local.<br>Save More.</h2>
+
+            <p>
+                Discover amazing products from your
+                nearby local shops.
+            </p>
+
+            <a href="#products" class="btn">
+                Explore Products
+            </a>
+        </div>
+    </section>
+
+    
+    <section id="categories">
+        <h2 class="section-title">Shop by Category</h2>
+
+        <div class="category-box">
+            <div class="category">🛒 Grocery</div>
+            <div class="category">👕 Fashion</div>
+            <div class="category">📱 Electronics</div>
+            <div class="category">📚 Books</div>
+        </div>
+    </section>
+
+   
+    <section id="products">
+        <h2 class="section-title">Popular Products</h2>
+
+        <div class="product-box">
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1548365328-9f547fb0953e?w=400"
+                alt="Fresh apples">
+
+                <h3>Fresh Apples</h3>
+                <p>₹120 / kg</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400"
+                alt="Watch">
+
+                <h3>Classic Watch</h3>
+                <p>₹499</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400"
+                alt="Shoes">
+
+                <h3>Sports Shoes</h3>
+                <p>₹899</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400"
+                alt="Headphones">
+
+                <h3>Headphones</h3>
+                <p>₹599</p>
+                <button onclick="addToCart()">Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    
+    <section id="about">
+        <h2 class="section-title">About CampusKart</h2>
+
+        <p class="about-text">
+            CampusKart is a local shopping platform that helps
+            small vendors showcase their products online.
+            Our goal is to connect customers with nearby shops
+            and support local businesses.
+        </p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 CampusKart | Supporting Local Businesses</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
